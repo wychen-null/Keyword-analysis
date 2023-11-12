@@ -44,6 +44,7 @@ def security_scraper(html, count):
                     continue
             if len(news_list) > 0:
                 write_in_json(news_list, news_date)
+                news_list = []
                 count = count + len(news_list)
                 print("======================================================================")
         html = get_previous_page(html)
@@ -114,7 +115,7 @@ if __name__ == "__main__":
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
         "Accept-Language": "zh-CN,zh;q=0.8"}
 
-    root_url = root + "/daily?date=2023-02-10"
+    root_url = root + "/daily?date=2023-01-01 "
     response = requests.get(root_url, headers=send_headers)
     html = BeautifulSoup(response.text, 'html.parser')
     count = security_scraper(html, 0)
