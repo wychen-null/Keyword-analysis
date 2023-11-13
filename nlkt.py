@@ -1,11 +1,14 @@
 import json
 import nltk
 
-from nltk.stem import PorterStemmer
-from nltk.stem import WordNetLemmatizer
+from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.corpus import stopwords
 from collections import Counter
+from nltk.corpus import wordnet
 from nltk import pos_tag
+
+nltk.download('wordnet')
+
 
 # 我觉得咱们的处理逻辑应该是
 # 分词 -> 词性还原 -> 合并/停用词过滤 -> 输出
@@ -16,15 +19,48 @@ def tokenize(text):
     # tagged_words = pos_tag(token_list)
     return token_list
 
+
 def stemmer_words(word):
     stemmer = PorterStemmer()
     # 对每个词进行词干还原
     stemmed_word = stemmer.stem(word)
     return stemmed_word
 
-# def lemmatizer_word(tagged_words):
-#     lemmatizer = WordNetLemmatizer()
-#     lemmatized_words = [lemmatizer.lemmatize(word, pos='v') for word, _ in tagged_words]
+
+def lemmatizer_word(word_list):
+    tagged_words = pos_tag(word_list)
+    tagged_words = clean_by_pos(tagged_words)
+    lemmatizer = WordNetLemmatizer()
+    lemmatized_words = []
+    for tag in tagged_words:
+        wordnet_pos = get_wordnet_pos(tag[1]) or wordnet.NOUN
+        lemmatized_words.append(lemmatizer.lemmatize(tag[0], pos=wordnet_pos))
+    return lemmatized_words
+
+
+# 根据词性清理词汇
+def clean_by_pos(tagged_words):
+    cleaned_tagged_word = []
+    include_tag = ["EX", "JJ", "JJR", "JJS", "NN", "NNS", "NNP", "NNPS", "PDT", "RB", "RBR", "RBS", "UH", "VB", "VBD",
+                   "VBN", "VBP", "VBZ", "NP", "PP", "VP", "ADJP", "ADVP", "PNP", "-SBJ", "-OBJ"]
+    for tagged_word in tagged_words:
+        if tagged_word[1] in include_tag:
+            cleaned_tagged_word.append(tagged_word)
+    return cleaned_tagged_word
+
+
+# 获取单词的词性
+def get_wordnet_pos(tag):
+    if tag.startswith('J'):
+        return wordnet.ADJ
+    elif tag.startswith('V'):
+        return wordnet.VERB
+    elif tag.startswith('N'):
+        return wordnet.NOUN
+    elif tag.startswith('R'):
+        return wordnet.ADV
+    else:
+        return None
 
 
 def load_security_words():
@@ -44,10 +80,13 @@ def remove_stopwords(stopwords_security, word_list):
     cleaned_list = []
     # 利用词干分析过滤掉停用词
     stem_stopwords = [stemmer_words(word) for word in stopwords_security]
+    # 词形还原
+    word_list = lemmatizer_word(word_list)
     for word in word_list:
         if stemmer_words(word.lower()) not in stem_stopwords:
             cleaned_list.append(word)
     return cleaned_list
+
 
 # load stopwords
 def load_data():
@@ -65,7 +104,7 @@ def write_file(keyword_counter):
     word_dict = dict(keyword_counter)
     sorted_data = sorted(word_dict.items(), key=lambda x: x[1], reverse=True)
     # 只输出前120个高频词
-    with open('output/output_nltk.json', 'w', encoding='utf-8') as f:
+    with open('output/output_nltk1.json', 'w', encoding='utf-8') as f:
         json.dump(sorted_data[:120], f, indent=4, ensure_ascii=False)
 
 
@@ -93,4 +132,3 @@ if __name__ == "__main__":
         del keyword_counter[k + 's']
     print('{} different keywords after merging'.format(len(keyword_counter)))
     write_file(keyword_counter)
-
