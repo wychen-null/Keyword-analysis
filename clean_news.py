@@ -6,10 +6,19 @@ import re
 data = {}
 root = "securityNewsData"
 
-#判断是否包含韩语
+
+# 判断是否包含韩语
 def contains_korean(s):
-   pattern = re.compile(u"[\uac00-\ud7ff]")
-   return pattern.search(s) is not None
+    pattern = re.compile(u"[\uac00-\ud7ff]")
+    return pattern.search(s) is not None
+
+
+def clean_text(text):
+
+    text = re.sub(r"[^a-zA-Z0-9 '-]", '', text)  # 去除所有的特殊字符
+    text = re.sub(r'\s+', ' ', text)  # 替换连续的空白字符为单个空格
+
+    return text.strip()
 
 
 if __name__ == "__main__":
@@ -24,6 +33,8 @@ if __name__ == "__main__":
                 for news_json in news_list:
                     if contains_korean(str(news_json)) is False:
                         key = (news_json['time'], news_json['title'])
+                        news_json['title'] = clean_text(news_json['title'])
+                        news_json['text'] = clean_text(news_json['text'])
                         data[key] = news_json
     json_list = list(data.values())
     print(len(json_list))
@@ -32,10 +43,3 @@ if __name__ == "__main__":
     # 将字典转换为列表，然后写入新的JSON文件
     with open('output/output.json', 'w', encoding='utf-8') as f:
         json.dump(sorted_list, f, indent=4, ensure_ascii=False)
-
-
-
-
-
-
-
