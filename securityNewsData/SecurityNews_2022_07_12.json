@@ -1,0 +1,57 @@
+[
+   {
+      "time": "2022-07-12",
+      "title": "Il malware EnvyScout (APT29) è stato veicolato anche in Italia – CERT-AGID",
+      "text": " Seguici suIl messaggio, che pretende di provenire da “Cancelliere governo.it” (ma l’indirizzo email utilizzato non ha nulla a che vedere con il dominio “governo.it”), invita i destinatari a prendere visione dell’allegato PDF per una informativa inerente la vaccinazione COVID-19.Il PDF allegato presenta un link che punta ad una pagina HTML (i.html) di un dominio localizzato in Serbia. Il file HTML contiene uno script che ha il compito di  acquisire l’indirizzo IP della vittima e lo User-Agent, di comunicarlo ad una pagina PHP (t.php) sempre sullo stesso dominio e di rilasciare un file ISO (Decret.iso) codificato in Base64.La data di creazione del file “Decret.iso” conferma la data di inizio della campagna. Il file ISO infatti risulta essere stato creato alle 08:58 del 29 giugno 2022 mentre l’e-mail è stata ricevuta alle ore 14:10 dello stesso giorno. L’archivio ISO presenta all’interno quattro file: uno con estensione LNK, un file EXE e 2 file DLL. "
+   },
+   {
+      "time": "2022-07-12",
+      "title": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-autopatch-has-arrived/ba-p/3570119",
+      "text": " "
+   },
+   {
+      "time": "2022-07-12",
+      "title": "Massive Rogers outage caused by a maintenance update",
+      "text": " Over the weekend, Rogers Communications CEO Tony Staffieri revealed the telecom company believes a maintenance update was what caused last week's massive outage.\"We disconnected the specific equipment and redirected traffic, which allowed our network and services to come back online over time as we managed traffic volumes returning to normal levels.\"Rogers has confirmed that its networks and systems are almost fully operational, and connectivity has been restored for the vast majority of its customers.\"Services have been restored for most customers and we're working hard to restore the rest as quickly as possible,\" a banner alert currently displayed on Rogers' official website reads.\"We sincerely apologize for the disruption and thank you for your patience. We will be automatically crediting all customers.\"To make things even worse for those affected by the outage, Rogers has also warned customers to look out for scam text messages offering free credits to affected users.\"We will apply the credit proactively to your account & no action is required. If you receive a suspicious SMS, please forward it to 7726 (SPAM).\"While Rogers did not provide details on what the threat actors behind these malicious text messages are hoping to achieve, these are most likely phishing messages attempting to redirect Rogers' customers to phishing sites.When opening links received via SMS phishing messages, the potential victims are sent to attacker-controlled websites where they're asked to enter credentials, personal information, or financial info to redeem the free credits.Another possible outcome is that the targets are asked to install a malicious application that will infect their devices with malware."
+   },
+   {
+      "time": "2022-07-12",
+      "title": "https://www.cyberscoop.com/white-house-backed-fund-deep-tech/",
+      "text": " "
+   },
+   {
+      "time": "2022-07-12",
+      "title": "Microsoft says decision to unblock Office macros is temporary",
+      "text": " Microsoft says last week's decision to roll back VBA macro auto-blocking in downloaded Office documents is only a temporary change.This again leaves Windows and Microsoft Office users exposed to attacks launched via Office documents with embedded malicious macros.\"Based on feedback, we're rolling back this change from Current Channel. We appreciate the feedback we've received so far, and we're working to make improvements in this experience,\" Redmond told admins in the Microsoft 365 message center on Thursday.\"We'll provide another update when we're ready to release again to Current Channel. Thank you.\"While the company revealed the change to admins following M365 message center updates, it failed to make a public announcement and updated the original notification to say it was a temporary rollback only after customers found Office macro blocking was no longer enabled.\"This is a temporary change, and we are fully committed to making the default change for all users. We will provide additional details on timeline in the upcoming weeks.\"Microsoft pinned the temporary rollback of this much-awaited Office security boost on user feedback and is yet to reveal what it wants to change to improve usability.\"I apologize for any inconvenience of the rollback starting before the update about the change was made available,\" Angela Robertson, a Principal GPM for Identity and Security on the Microsoft 365 Office team, told confused customers last week.Although the company has not shared the negative feedback that led to the rollback, customers have reported they cannot re-enable macros after they're automatically blocked because they can't find the Unblock button to remove the Mark-of-the-Web from downloaded files.Some admins also feel that the decision was a problem for end-users who would find it burdensome to unblock each downloaded Office document multiple times each day."
+   },
+   {
+      "time": "2022-07-12",
+      "title": "\r\n\tCEO of Dozens of Companies Charged in Scheme to Traffic An Estimated $1bn in Fake Cisco Devices - Infosecurity Magazine\r\n",
+      "text": " Freelance JournalistThe US Department of Justice (DOJ) announced last Friday that a Florida resident named Ron Aksoy has been arrested and charged for allegedly selling thousands of fraudulent and counterfeit Cisco products over the course of 12 years.Also known as Dave Durden, Aksoy, 38, would have run at least 19 companies formed in New Jersey and Florida, at least 15 Amazon storefronts, roughly 10 eBay storefronts, and multiple other entities with an estimated retail value of over $1bn.Aksoy is charged with one count of conspiracy to traffic in counterfeit goods and to commit mail and wire fraud; three counts of mail fraud; four counts of wire fraud; and three counts of trafficking in counterfeit goods.These typically older, lower-model products (some of which had been sold or discarded) were modified by Chinese counterfeiters to appear to be genuine versions of new, enhanced, and more expensive Cisco devices.As a consequence, the fraudulent and counterfeit products suffered from numerous performance, functionality, and safety problems, sometimes costing users tens of thousands of dollars. As set forth in the indictment, Customs and Border Protection (CBP) seized roughly 180 shipments of counterfeit Cisco devices that were being shipped to the Pro Network Entities (the false company name under which Aksoy operated) from China and Hong Kong between 2014 and 2022. In response to some of these seizures, Aksoy would have falsely submitted official paperwork to CBP under the alias “Dave Durden,” an identity that he also used to communicate with Chinese co-conspirators.The whole operation allegedly generated over $100 million in revenue, of which Aksoy retained a considerable share, while the rest went to his co-conspirators."
+   },
+   {
+      "time": "2022-07-12",
+      "title": "\r\n\tBlackCat Ransomware Increases Demands Up to $2.5m - Infosecurity Magazine\r\n",
+      "text": " Freelance JournalistCybersecurity researchers from Resecurity said they have detected a substantial increase in the value of ransom demand requests by the BlackCat ransomware group.“Such tactics significantly affect ransomware underground ecosystems, hitting businesses of different sizes hard worldwide,” writes the company in an advisory.“Based on the recently compromised victims in [the] Nordics region [...] the amount to be paid exceeds $2m.”Now, the group is getting bolder, issuing $2.5m ransom demands, with a possible discount of close to half when the victim chooses to resolve the incident as soon as possible.“The average time allocated for payment varies between 5-7 days, to give victims some time to purchase BTC or XMR cryptocurrency,” Resecurity wrote. “In case of difficulties, the victim may engage an ‘intermediary’ for [the] further recovery process.”According to Resecurity, the average ransomware payment increased by 82% since 2020, setting a record high of $570,000 in the first half of 2021, and then almost doubling that by 2022.“The latest forecast is for global ransomware extortion activity to reach $265bn by 2031, with total damages for businesses valued at $10.5tn globally.”BlackCat is also known as \"ALPHV\", \"AlphaVM\" and \"AphaV,\" and is a ransomware family created in the Rust programming language.“Notably, despite the fact BlackCat and Alpha have completely different URLs in TOR Network, the scenarios used on their pages are identical, and likely developed by the same actors,” the Resecurity advisory reads.To mitigate the impact of BlackCat, the Resecurity team said system administrators should review domain controllers, servers, workstations, and active directories for new or unrecognized user accounts.The company also suggested organizations should regularly back up data, air gap, and password-protect backup copies offline."
+   },
+   {
+      "time": "2022-07-12",
+      "title": "Businesses Hit By The Ransomware 0mega - CySecurity News - Latest Information Security and Hacking Incidents",
+      "text": "  your nameYour Emailyour message"
+   },
+   {
+      "time": "2022-07-12",
+      "title": "https://www.infosecurity-magazine.com/news/online-payment-fraud-five-years?utm_source=twitterfeed&utm_medium=twitter",
+      "text": " "
+   },
+   {
+      "time": "2022-07-12",
+      "title": "https://www.infosecurity-magazine.com/news/ransomware-french-telecomes?utm_source=twitterfeed&utm_medium=twitter",
+      "text": " "
+   },
+   {
+      "time": "2022-07-12",
+      "title": "https://riskybiznews.substack.com/p/risky-biz-news-thousands-of-yubikeys",
+      "text": " "
+   }
+]

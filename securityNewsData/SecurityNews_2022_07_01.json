@@ -1,0 +1,57 @@
+[
+   {
+      "time": "2022-07-01",
+      "title": "Cyble — Bahamut Android Malware returns with New Spying Capabilities",
+      "text": " Bahamut is a well-known Advanced Persistent Threat (APT) group that was first discovered in 2017. The Bahamut group was involved in various phishing campaigns that were delivering malware targeting the Middle East and South Asia.The Bahamut group plans their attack on the target, stays in the wild for a while, allows their attack to affect many individuals and organizations, and finally steals their data.After their previous attack, the Threat Actors (TAs) behind Bahamut stayed silent for about a year and came back with a new strategy for their current campaign. The group has continuously kept changing its mode of attack, and in the past few years, it is increasingly shifting its focus to targeting mobile devices.This indicates that the TA has invested time in developing a well-designed phishing website to attract the victim to download the malware.Along with the secure chat phishing website, we have observed that Bahamut Spyware is being distributed through obscene sites “hxxps://www[.]iminglechat[.]de”.While comparing the old and new variants of Bahamut Android Spyware, we observed that the TA has modified their code in the new variant and added extra modules specifically targeting messaging applications such as Viber, Imo, Signal, Telegram, and many more, wherein the old variant of the malicious app was collecting only Personally Identifiable Information (PII) such as contacts, SMS data, call logs, etc. The below image showcases the comparison and the extra module added to collect information from different messaging apps.APK Metadata Information      Figure 4 shows the metadata information of the application.  Manifest Description  The malicious application mentions 24 permissions, of which the TA exploits 9. The harmful permissions requested by the malware are:  Source Code Review  Installing the malware prompts the user to enable a few permissions and Accessibility Service. Once the victim grants these permissions, the malware abuses the Accessibility Service to fetch data from the targeted messaging applications.The malware then checks for the targeted application’s package name. It uses the Accessibility API to fetch text from the current screen and stores it in a local database, as shown below.Below is the list of messaging applications targeted by the malware to collect the data:After collecting data from these messaging apps, the malware sends the stolen data to Command and Control (C&C) server. The code present in the below image depicts the same.Along with collecting the data from messaging applications, the malware executes the below spyware activities:The figure below shows the C&C server and endpoints used by the malware to send the stolen data.Recently many malware families and APT groups have been observed in the wild attacking specific targets and performing malicious activities, then disappearing for some time. Bahamut malware follows the same cybercrime footprint.Bahamut malware was initially observed last year with sophisticated spying capabilities, and interestingly, it has reappeared with new additional code which collects messaging applications data used by the victim. The agenda behind the malware distribution is very clear – to spy on the targeted entity.Over the next few years, we may observe a change in the activities of the Bahamut APT group, with different targets, enhanced techniques, and distribution modes. We have listed some essential cybersecurity best practices that create the first line of control against attackers. We recommend that our readers follow the best practices given below:   How to prevent malware infection? How to identify whether you are infected? What to do when you are infected? What to do in case of any fraudulent transaction? What should banks do to protect their customers? MITRE ATT&CK® Techniques Indicators of Compromise (IOCs) \n\t\t\t\tCyble's research team has found an uptick in phishing campaigns targeting multiple organizations, including financial institutes, by abusing the ngrok platform, a secure and introspectable…\t\t\t\n\t\t\t\tTwo Android spyware strains named Hornbill and SunBird were recently discovered with possible connections to the advanced persistent threat (APT) group called Confucius. The group…\t\t\tComments are closed."
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://therecord.media/north-korea-accused-of-orchestrating-100-million-harmony-crypto-hack/",
+      "text": " "
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://www.infosecurity-magazine.com/news/canadian-worker-guilty-netwalker?utm_source=twitterfeed&utm_medium=twitter",
+      "text": " "
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://www.cisa.gov/uscert/ncas/alerts/aa22-181a",
+      "text": " "
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://therecord.media/norway-accuses-pro-russian-hackers-of-launching-wave-of-ddos-attacks/",
+      "text": " "
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://therecord.media/sudan-government-shuts-off-internet-ahead-of-anti-coup-protest/",
+      "text": " "
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://thehackernews.com/2022/06/google-blocks-dozens-of-malicious.html",
+      "text": " "
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://www.bleepingcomputer.com/news/security/ukraine-targeted-by-almost-800-cyberattacks-since-the-war-started/",
+      "text": " "
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://www.bleepingcomputer.com/news/security/xfiles-info-stealing-malware-adds-support-for-follina-delivery/",
+      "text": " "
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://thehackernews.com/2022/06/us-fcc-commissioner-asks-apple-and.html",
+      "text": " "
+   },
+   {
+      "time": "2022-07-01",
+      "title": "https://www.bleepingcomputer.com/news/security/opensea-discloses-data-breach-warns-users-of-phishing-attacks/",
+      "text": " "
+   }
+]

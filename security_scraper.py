@@ -114,7 +114,7 @@ if __name__ == "__main__":
         "Connection": "keep-alive",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
         "Accept-Language": "zh-CN,zh;q=0.8"}
-    root_url = root + "/daily?date=2022-10-14"
+    root_url = root + "/daily?date=2022-07-03"
     response = requests.get(root_url, headers=send_headers)
     html = BeautifulSoup(response.text, 'html.parser')
     count = security_scraper(html, 0)
