@@ -1,482 +1,482 @@
 [
     [
         "attack",
-        4252
+        4725
     ],
     [
         "threat",
-        3586
+        3949
     ],
     [
         "file",
-        3311
-    ],
-    [
-        "actor",
-        2835
+        3689
     ],
     [
         "malware",
-        2819
+        3158
+    ],
+    [
+        "actor",
+        3116
     ],
     [
         "user",
-        2790
-    ],
-    [
-        "target",
-        2284
+        3049
     ],
     [
         "information",
-        2263
+        2509
+    ],
+    [
+        "target",
+        2453
     ],
     [
         "malicious",
-        2153
+        2393
     ],
     [
         "vulnerability",
-        2001
-    ],
-    [
-        "attacker",
-        1927
-    ],
-    [
-        "device",
-        1911
+        2236
     ],
     [
         "ransomware",
-        1909
+        2161
+    ],
+    [
+        "attacker",
+        2132
+    ],
+    [
+        "device",
+        2106
     ],
     [
         "victim",
-        1901
+        2084
     ],
     [
         "service",
-        1741
+        1972
     ],
     [
         "researcher",
-        1735
+        1894
     ],
     [
         "code",
-        1728
+        1889
     ],
     [
         "account",
-        1692
+        1841
     ],
     [
         "email",
-        1610
+        1742
     ],
     [
         "organization",
-        1509
+        1662
     ],
     [
         "cybersecurity",
-        1451
-    ],
-    [
-        "Microsoft",
-        1442
+        1635
     ],
     [
         "app",
-        1415
+        1582
+    ],
+    [
+        "Microsoft",
+        1561
     ],
     [
         "campaign",
-        1356
+        1496
     ],
     [
         "steal",
-        1302
-    ],
-    [
-        "exploit",
-        1297
+        1452
     ],
     [
         "version",
-        1283
+        1450
     ],
     [
-        "address",
-        1201
-    ],
-    [
-        "software",
-        1185
-    ],
-    [
-        "operation",
-        1181
-    ],
-    [
-        "make",
-        1179
+        "exploit",
+        1426
     ],
     [
         "customer",
-        1172
+        1359
     ],
     [
         "command",
-        1166
+        1338
+    ],
+    [
+        "address",
+        1327
     ],
     [
         "Window",
-        1157
+        1292
+    ],
+    [
+        "make",
+        1277
+    ],
+    [
+        "software",
+        1274
+    ],
+    [
+        "operation",
+        1272
     ],
     [
         "compromise",
-        1140
+        1231
     ],
     [
         "breach",
-        1073
-    ],
-    [
-        "update",
-        1066
+        1183
     ],
     [
         "Google",
-        1058
+        1172
     ],
     [
-        "website",
-        1018
+        "update",
+        1170
     ],
     [
         "activity",
-        1016
+        1135
+    ],
+    [
+        "website",
+        1123
     ],
     [
         "provide",
-        954
-    ],
-    [
-        "know",
-        935
+        1079
     ],
     [
         "execute",
-        924
+        1052
+    ],
+    [
+        "know",
+        1036
     ],
     [
         "create",
-        904
+        1001
     ],
     [
         "process",
-        877
+        980
     ],
     [
         "issue",
-        869
-    ],
-    [
-        "download",
-        866
-    ],
-    [
-        "site",
-        850
-    ],
-    [
-        "payload",
-        843
-    ],
-    [
-        "incident",
-        841
+        967
     ],
     [
         "government",
-        829
+        962
+    ],
+    [
+        "download",
+        956
+    ],
+    [
+        "payload",
+        954
+    ],
+    [
+        "incident",
+        947
     ],
     [
         "send",
-        825
+        914
     ],
     [
         "hacker",
-        821
+        914
     ],
     [
-        "credential",
-        821
-    ],
-    [
-        "contain",
-        808
-    ],
-    [
-        "work",
-        805
-    ],
-    [
-        "remote",
-        793
-    ],
-    [
-        "discover",
-        760
-    ],
-    [
-        "late",
-        756
+        "site",
+        908
     ],
     [
         "application",
-        755
+        901
     ],
     [
-        "impact",
-        747
+        "credential",
+        889
     ],
     [
-        "likely",
-        747
+        "work",
+        885
+    ],
+    [
+        "contain",
+        882
+    ],
+    [
+        "late",
+        872
+    ],
+    [
+        "remote",
+        869
+    ],
+    [
+        "discover",
+        836
     ],
     [
         "News",
-        743
+        824
     ],
     [
-        "flaw",
-        738
+        "impact",
+        822
     ],
     [
         "risk",
-        737
-    ],
-    [
-        "need",
-        723
+        821
     ],
     [
         "link",
-        720
+        819
+    ],
+    [
+        "likely",
+        811
+    ],
+    [
+        "flaw",
+        805
     ],
     [
         "cyber",
-        719
+        801
     ],
     [
         "observe",
-        718
-    ],
-    [
-        "legitimate",
-        710
-    ],
-    [
-        "help",
-        708
-    ],
-    [
-        "platform",
-        700
+        800
     ],
     [
         "request",
-        698
-    ],
-    [
-        "backdoor",
-        689
-    ],
-    [
-        "continue",
-        688
-    ],
-    [
-        "multiple",
-        684
-    ],
-    [
-        "message",
-        684
+        800
     ],
     [
         "feature",
-        682
+        789
+    ],
+    [
+        "message",
+        784
+    ],
+    [
+        "platform",
+        783
+    ],
+    [
+        "legitimate",
+        779
+    ],
+    [
+        "need",
+        776
+    ],
+    [
+        "help",
+        772
     ],
     [
         "start",
-        682
-    ],
-    [
-        "add",
-        674
+        771
     ],
     [
         "release",
-        664
+        760
     ],
     [
-        "news",
-        650
+        "multiple",
+        759
     ],
     [
-        "list",
-        649
+        "add",
+        750
+    ],
+    [
+        "continue",
+        745
     ],
     [
         "critical",
-        641
+        739
     ],
     [
-        "launch",
-        639
-    ],
-    [
-        "sensitive",
-        636
-    ],
-    [
-        "claim",
-        635
-    ],
-    [
-        "chain",
-        633
-    ],
-    [
-        "technology",
-        632
-    ],
-    [
-        "web",
-        630
-    ],
-    [
-        "Informa",
-        628
+        "backdoor",
+        734
     ],
     [
         "identify",
-        627
+        726
     ],
     [
-        "additional",
-        626
+        "news",
+        721
     ],
     [
-        "'s",
-        623
-    ],
-    [
-        "specific",
-        619
-    ],
-    [
-        "Android",
-        619
-    ],
-    [
-        "infrastructure",
-        618
-    ],
-    [
-        "run",
-        611
-    ],
-    [
-        "team",
-        607
-    ],
-    [
-        "script",
-        604
+        "list",
+        716
     ],
     [
         "C2",
-        603
+        714
+    ],
+    [
+        "infrastructure",
+        710
+    ],
+    [
+        "Android",
+        706
+    ],
+    [
+        "additional",
+        705
+    ],
+    [
+        "web",
+        695
+    ],
+    [
+        "'s",
+        693
+    ],
+    [
+        "sensitive",
+        692
     ],
     [
         "patch",
-        595
+        690
     ],
     [
-        "leak",
-        594
+        "claim",
+        689
     ],
     [
-        "business",
-        591
+        "run",
+        686
     ],
     [
-        "potential",
-        588
+        "script",
+        685
     ],
     [
-        "support",
-        583
+        "specific",
+        682
     ],
     [
-        "share",
-        579
+        "launch",
+        680
     ],
     [
-        "publish",
-        578
+        "technology",
+        680
     ],
     [
-        "available",
-        578
+        "chain",
+        672
     ],
     [
-        "deploy",
-        578
-    ],
-    [
-        "UK",
-        574
-    ],
-    [
-        "attempt",
-        574
-    ],
-    [
-        "Russian",
-        569
-    ],
-    [
-        "document",
-        569
-    ],
-    [
-        "source",
-        568
+        "Informa",
+        664
     ],
     [
         "n't",
-        567
+        657
     ],
     [
-        "note",
-        564
+        "team",
+        657
     ],
     [
-        "firm",
-        562
+        "leak",
+        656
+    ],
+    [
+        "support",
+        654
+    ],
+    [
+        "potential",
+        649
+    ],
+    [
+        "share",
+        646
+    ],
+    [
+        "available",
+        641
+    ],
+    [
+        "publish",
+        640
+    ],
+    [
+        "attempt",
+        638
+    ],
+    [
+        "business",
+        635
+    ],
+    [
+        "document",
+        632
     ],
     [
         "technique",
-        559
+        631
+    ],
+    [
+        "UK",
+        627
+    ],
+    [
+        "Russian",
+        626
+    ],
+    [
+        "execution",
+        626
+    ],
+    [
+        "receive",
+        624
+    ],
+    [
+        "deploy",
+        623
+    ],
+    [
+        "note",
+        619
     ],
     [
         "confirm",
-        554
+        617
     ]
 ]
