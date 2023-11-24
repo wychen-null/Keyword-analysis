@@ -93,7 +93,7 @@ def load_data(year, start_month, end_month):
     count = start_month
     news_data = []
     while count <= end_month:
-        with open('output/cleaned_data_' + year + '_' + format_month(count) + '.json', 'r', encoding='utf-8') as file:
+        with open('output/cleaned_data/cleaned_data_' + year + '_' + format_month(count) + '.json', 'r', encoding='utf-8') as file:
             news_list = json.load(file)
             for news_json in news_list:
                 text = news_json['title'] + '.' + news_json['text']
@@ -104,7 +104,7 @@ def load_data(year, start_month, end_month):
 
 
 def format_month(num):
-    formatted_str = "0%s" % num
+    formatted_str = str(num).zfill(2)
     return formatted_str
 
 
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     year = '2023'
     start_month = 1
-    end_month = 3
+    end_month = 11
 
     data = load_data(year, start_month, end_month)
     keyword_list = []
