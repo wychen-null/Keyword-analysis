@@ -11,7 +11,7 @@ def write_in_file(countries):
         english_names.append(country['name'])
         english_code2.append(country['alpha2Code'])
         english_code3.append(country['alpha3Code'])
-    with open('other_file/country_names.txt', 'w', encoding='utf-8') as f:
+    with open('country_names.txt', 'w', encoding='utf-8') as f:
         for name in english_names:
             f.write(name + ',')
         for key2 in english_code2:

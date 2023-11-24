@@ -41,8 +41,7 @@ def lemmatizer_word(word_list):
 # 根据词性清理词汇
 def clean_by_pos(tagged_words):
     cleaned_tagged_word = []
-    include_tag = ["EX", "JJ", "JJR", "JJS", "NN", "NNS", "NNP", "NNPS", "PDT", "RB", "RBR", "RBS", "UH", "VB", "VBD",
-                   "VBN", "VBP", "VBZ", "NP", "PP", "VP", "ADJP", "ADVP", "PNP", "-SBJ", "-OBJ"]
+    include_tag = ["NNP", "NNPS"]
     for tagged_word in tagged_words:
         if tagged_word[1] in include_tag:
             cleaned_tagged_word.append(tagged_word)
@@ -70,7 +69,7 @@ def load_security_words():
         stopwords_list = f.read().split('\n')
         stopwords_security_list.extend(stopwords_list)
     with open("other_file/info_security_stopwords.txt", "r") as s:
-        info_security_list = s.read().split(', ')
+        info_security_list = s.read().split('\n')
         stopwords_security_list.extend(info_security_list)
     stopwords_security = set(stopwords_security_list)
     return stopwords_security
@@ -112,16 +111,16 @@ def write_file(keyword_counter, year, start_month, end_month):
     word_dict = dict(keyword_counter)
     sorted_data = sorted(word_dict.items(), key=lambda x: x[1], reverse=True)
     # 只输出前120个高频词
-    with open('output/output_nltk_' + year + '_' + format_month(start_month)
-              + '_' + format_month(end_month) + '.json', 'w', encoding='utf-8') as f:
-        json.dump(sorted_data[:200], f, indent=4, ensure_ascii=False)
+    with open('output/nltk_output/output_nltk_' + year + '_' + format_month(start_month)
+              + '_' + format_month(end_month) + '_' + 'nation' + '.json', 'w', encoding='utf-8') as f:
+        json.dump(sorted_data, f, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":
 
     year = '2023'
     start_month = 1
-    end_month = 11
+    end_month = 3
 
     data = load_data(year, start_month, end_month)
     keyword_list = []

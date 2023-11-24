@@ -4,7 +4,7 @@ with open(file_path, "r") as file:
    lines = file.readlines()
 
 # 将每一行的内容分割成单独的词
-words = [word for line in lines for word in line.split()]
+words = [word.lower() for line in lines for word in line.split()]
 
 # 根据首字母对词进行排序
 sorted_words = sorted(words)
