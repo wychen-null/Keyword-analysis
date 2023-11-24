@@ -89,28 +89,41 @@ def remove_stopwords(stopwords_security, word_list):
 
 
 # load stopwords
-def load_data():
+def load_data(year, start_month, end_month):
+    count = start_month
     news_data = []
-    with open('output/output.json', 'r', encoding='utf-8') as file:
-        news_list = json.load(file)
-        for news_json in news_list:
-            text = news_json['title'] + '.' + news_json['text']
-            news_data.append(text)
-        print("Total amount of data is " + str(len(news_data)))
+    while count <= end_month:
+        with open('output/cleaned_data_' + year + '_' + format_month(count) + '.json', 'r', encoding='utf-8') as file:
+            news_list = json.load(file)
+            for news_json in news_list:
+                text = news_json['title'] + '.' + news_json['text']
+                news_data.append(text)
+        count = count + 1
+    print("Total amount of data is " + str(len(news_data)))
     return news_data
 
 
-def write_file(keyword_counter):
+def format_month(num):
+    formatted_str = "0%s" % num
+    return formatted_str
+
+
+def write_file(keyword_counter, year, start_month, end_month):
     word_dict = dict(keyword_counter)
     sorted_data = sorted(word_dict.items(), key=lambda x: x[1], reverse=True)
     # 只输出前120个高频词
-    with open('output/output_nltk1.json', 'w', encoding='utf-8') as f:
-        json.dump(sorted_data[:120], f, indent=4, ensure_ascii=False)
+    with open('output/output_nltk_' + year + '_' + format_month(start_month)
+              + '_' + format_month(end_month) + '.json', 'w', encoding='utf-8') as f:
+        json.dump(sorted_data[:200], f, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":
 
-    data = load_data()
+    year = '2023'
+    start_month = 1
+    end_month = 3
+
+    data = load_data(year, start_month, end_month)
     keyword_list = []
     stopword_list = load_security_words()
 
@@ -131,4 +144,4 @@ if __name__ == "__main__":
         keyword_counter[k] += keyword_counter[k + 's']
         del keyword_counter[k + 's']
     print('{} different keywords after merging'.format(len(keyword_counter)))
-    write_file(keyword_counter)
+    write_file(keyword_counter, year, start_month, end_month)

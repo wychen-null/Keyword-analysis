@@ -44,7 +44,7 @@ if __name__ == "__main__":
         print(len(json_list))
         sorted_list = sorted(json_list, key=lambda x: x['time'], reverse=True)
         # 将字典转换为列表，然后写入新的JSON文件
-        with open('output/cleaned_data_2022_' + month, 'w', encoding='utf-8') as f:
+        with open('output/cleaned_data/cleaned_data_2022_' + month + '.json', 'w', encoding='utf-8') as f:
             json.dump(sorted_list, f, indent=4, ensure_ascii=False)
 
     for month in month_list2:
@@ -66,7 +66,7 @@ if __name__ == "__main__":
         print(len(json_list))
         sorted_list = sorted(json_list, key=lambda x: x['time'], reverse=True)
         # 将字典转换为列表，然后写入新的JSON文件
-        with open('output/cleaned_data_2023_' + month, 'w', encoding='utf-8') as f:
+        with open('output/cleaned_data/cleaned_data_2023_' + month + '.json', 'w', encoding='utf-8') as f:
             json.dump(sorted_list, f, indent=4, ensure_ascii=False)
 
 
