@@ -38,10 +38,5 @@
       "time": "2022-08-08",
       "title": "Hackers are actively exploiting password-stealing flaw in Zimbra",
       "text": " The Cybersecurity and Infrastructure Security Agency (CISA) has added the Zimbra CVE-2022-27924 flaw to its 'Known Exploited Vulnerabilities Catalog,' indicating that it is actively exploited in attacks by hackers.SonarSource researchers discovered the flaw on March 11, 2022, and the software vendor released a fix that addressed the issues on May 10, 2022, with versions ZCS 9.0.0 Patch 24.1 and ZCS 8.8.15 Patch 31.1.However, as it becomes evident from CISA's latest catalog addition, not all administrators have applied the security updates that have been available for nearly three months.Given this opportunity, hackers now attempt to locate and attack vulnerable instances. Snatching Zimbra account credentials enables them to access the email server, opening up the pathway to spear-phishing, social engineering, and BEC (business email compromise) attacks.According to the software vendor, Zimbra Collaboration is used by over 200,000 businesses and 1,000 state entities and critical organizations in 140 countries, including the United States.Of course, non-federal agencies and organizations that use Zimbra Collaboration and haven't updated their products yet should do it immediately, as hacker attacks targeting vulnerable instances are already underway."
-   },
-   {
-      "time": "2022-08-08",
-      "title": "https://www.bleepingcomputer.com/news/security/facebook-finds-new-android-malware-used-by-apt-hackers/",
-      "text": " "
    }
 ]

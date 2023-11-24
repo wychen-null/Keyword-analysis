@@ -14,6 +14,22 @@ def contains_korean(s):
     return pattern.search(s) is not None
 
 
+def contains_russian(s):
+    pattern = re.compile(u'[\u0400-\u04FF]')
+    return pattern.search(s) is not None
+
+
+def filter_method(s):
+    if contains_korean(str(s)):
+        return False
+    # if contains_russian(str(s)):
+    #     return False
+    title = s['title']
+    if "https" in str(title):
+        return False
+    return True
+
+
 def clean_text(text):
 
     text = re.sub(r"[^a-zA-Z0-9 '-]", '', text)  # 去除所有的特殊字符
@@ -35,7 +51,7 @@ if __name__ == "__main__":
                     # 读取文件内容并转换为Python字典
                     news_list = json.load(f)
                     for news_json in news_list:
-                        if contains_korean(str(news_json)) is False:
+                        if filter_method(news_json) is True:
                             key = (news_json['time'], news_json['title'])
                             news_json['title'] = clean_text(news_json['title'])
                             news_json['text'] = clean_text(news_json['text'])
@@ -56,7 +72,7 @@ if __name__ == "__main__":
                     # 读取文件内容并转换为Python字典
                     news_list = json.load(f)
                     for news_json in news_list:
-                        if contains_korean(str(news_json)) is False:
+                        if filter_method(news_json) is True:
                             if month == str(news_json['time']).split('-')[1]:
                                 key = (news_json['time'], news_json['title'])
                                 news_json['title'] = clean_text(news_json['title'])

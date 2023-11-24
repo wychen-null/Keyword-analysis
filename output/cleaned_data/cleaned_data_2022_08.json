@@ -741,11 +741,6 @@
     },
     {
         "time": "2022-08-11",
-        "title": "httpstwittercomvxundergroundstatus1557401735383097347photo1",
-        "text": ""
-    },
-    {
-        "time": "2022-08-11",
         "title": "Google now blocks Workspace account hijacking attempts automatically",
         "text": "Google Workspace formerly G Suite now has stronger protections for risky account actions automatically blocking hijacking attempts with identity verification prompts and logging them for further investigationThis added layer of security will block threat actors who gain access to a user's account to protect personal data and sensitive information belonging to their organizationThe enhanced account protection capabilities are available to all Google Workspace customers including legacy G Suite Basic and Business customersGoogle will evaluate the session attempting the action and if it's deemed risky it will be challenged with a 'Verify it's You' prompt Google saidThrough a second and trusted factor such as a 2-step verification code users can confirm the validity of the actionFor instance this new feature would block sensitive actions such as attempts to change the account's name until the true account owner can verify that this was intentionalGoogle added that admins could also temporarily disable login challenges triggered on sensitive account actions for users who can't get past the verification promptsWe strongly recommend only using this option if contact with the user is credibly established such as via a video call"
     },
@@ -890,19 +885,9 @@
         "text": "The Cybersecurity and Infrastructure Security Agency CISA has added the Zimbra CVE-2022-27924 flaw to its 'Known Exploited Vulnerabilities Catalog' indicating that it is actively exploited in attacks by hackersSonarSource researchers discovered the flaw on March 11 2022 and the software vendor released a fix that addressed the issues on May 10 2022 with versions ZCS 900 Patch 241 and ZCS 8815 Patch 311However as it becomes evident from CISA's latest catalog addition not all administrators have applied the security updates that have been available for nearly three monthsGiven this opportunity hackers now attempt to locate and attack vulnerable instances Snatching Zimbra account credentials enables them to access the email server opening up the pathway to spear-phishing social engineering and BEC business email compromise attacksAccording to the software vendor Zimbra Collaboration is used by over 200000 businesses and 1000 state entities and critical organizations in 140 countries including the United StatesOf course non-federal agencies and organizations that use Zimbra Collaboration and haven't updated their products yet should do it immediately as hacker attacks targeting vulnerable instances are already underway"
     },
     {
-        "time": "2022-08-08",
-        "title": "httpswwwbleepingcomputercomnewssecurityfacebook-finds-new-android-malware-used-by-apt-hackers",
-        "text": ""
-    },
-    {
         "time": "2022-08-05",
         "title": "Critical RCE vulnerability impacts 29 models of DrayTek routers",
         "text": "Researchers at Trellix have discovered a critical unauthenticated remote code execution RCE vulnerability impacting 29 models of the DrayTek Vigor series of business routersThe vulnerability is tracked as CVE-2022-32548 and carries a maximum CVSS v3 severity score of 100 categorizing it as criticalThe attacker does not need credentials or user interaction to exploit the vulnerability with the default device configuration making the attack viable via the internet and LANHackers who exploit this vulnerability could potentially perform the following actionsDrayTek Vigor devices became very popular during the pandemic by riding the work from home wave They are excellent cost-efficient products for VPN access to small and medium-sized business networksA Shodan search returned over 700000 online devices most located in the UK Vietnam Netherlands and AustraliaUsing a specially crafted pair of credentials as base64 encoded strings in the login fields one can trigger the flaw and take control of the device's OSThe researchers found at least 200000 of the detected routers to expose the vulnerable service on the internet and hence are readily exploitable without user interaction or any other special prerequisitesOf the remaining 500000 many are also believed to be exploitable using one-click attacks but only via LAN so the attack surface is smallerThe vulnerable models are the following"
-    },
-    {
-        "time": "2022-08-05",
-        "title": "httpstwittercomjohnhultquiststatus1555202554753073152",
-        "text": ""
     },
     {
         "time": "2022-08-05",

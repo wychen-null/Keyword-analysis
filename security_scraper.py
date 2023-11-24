@@ -11,7 +11,7 @@ def security_scraper(html, count):
 
     for date in range(150):
         print("Round is " + str(date))
-        #获取时间值 获取不到就下一个
+        # 获取时间值 获取不到就下一个
         news_time = html.find('div', class_="date")
         time_str = news_time.text
         if len(time_str) > 0:
@@ -21,14 +21,13 @@ def security_scraper(html, count):
             html = get_previous_page(html)
 
         links = html.find_all('div', class_='report-link')
-        #如果links数组不为0
+        # 如果links数组不为0
         if len(links) != 0:
             for link in links:
                 try:
                     article_url = link.find('a').text
                     title, content = find_security_news(article_url)
-                    if contains_chinese(content) is True or title is None:
-                        print("Contains Chinese")
+                    if filter_method(title, content):
                         continue
                     news_info = {
                         "time": news_date,
@@ -71,9 +70,19 @@ def write_in_json(news_list, date_str):
 
 
 def contains_chinese(text):
-   chinese_pattern = re.compile(u'[\u4e00-\u9fa5]')
-   match = chinese_pattern.search(text)
-   return match is not None
+    chinese_pattern = re.compile(u'[\u4e00-\u9fa5]')
+    match = chinese_pattern.search(text)
+    return match is not None
+
+
+def filter_method(title, content):
+    if contains_chinese(content) is True or title is None:
+        print("Contains Chinese")
+        return True
+    if 'https' in title:
+        print("Contains url")
+        return True
+    return False
 
 
 def find_security_news(url):
@@ -114,10 +123,9 @@ if __name__ == "__main__":
         "Connection": "keep-alive",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
         "Accept-Language": "zh-CN,zh;q=0.8"}
-    root_url = root + "/daily?date=2023-11-24"
+    root_url = root + "/daily?date=2022-07-05"
     response = requests.get(root_url, headers=send_headers)
     html = BeautifulSoup(response.text, 'html.parser')
     count = security_scraper(html, 0)
 
     print("Total news:", count)
-

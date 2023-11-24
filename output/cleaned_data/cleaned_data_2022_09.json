@@ -871,11 +871,6 @@
     },
     {
         "time": "2022-09-05",
-        "title": "httpswwwdatabreachesnetcustomer-data-from-hundreds-of-indonesian-and-malaysian-restaurants-hacked-by-desorden",
-        "text": ""
-    },
-    {
-        "time": "2022-09-05",
         "title": "New Evidence Links Raspberry Robin Malware to Dridex and Russian Evil Corp Hackers",
         "text": "Researchers have identified functional similarities between a malicious component used in the Raspberry Robin infection chain and a Dridex malware loader further strengthening the operators' connections to the Russia-based Evil Corp groupThe malware is known to be delivered from a compromised system via infected USB devices containing a malicious LNK file to other devices in the target network The Windows Shortcut files are designed to retrieve a malicious DLL from a remote serverThe Raspberry Robin loaders are DLLs that decode and execute an intermediate loader Henson said The intermediate loader performs hook detection as an anti-analysis technique decodes its strings at runtime and then decodes a highly obfuscated DLL whose purpose has not been determinedFurthermore IBM Security X-Force's comparative analysis of a 32-bit Raspberry Robin loader and a 64-bit Dridex loader uncovered overlaps in functionality and structure with both components incorporating similar anti-analysis code and decoding the final payload in an analogous mannerDiscover how application detection response and automated behavior modeling can revolutionize your defense against insider threatsJoin the conversation to learn how to combat Zenbleed and Kubernetes attacksSign up for free and start receiving your daily dose of cybersecurity news insights and tips"
     },
