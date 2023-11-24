@@ -20,13 +20,12 @@ import csv
 #         writer.writerow([item[0], item[1]])
 
 
-stylecloud.gen_stylecloud(file_path='output/output_nltk1.csv',
-                          #icon_name='fas fa-shield-alt',
-                          icon_name='fas fa-bug',
+stylecloud.gen_stylecloud(file_path='output/TF_IDF/output_2023_season4.csv',
+                          icon_name='fas fa-shield-alt',
+                          # icon_name='fas fa-bug',
                           colors='white',
                           background_color='black',
-                          #output_name='output/res.png',
-                          output_name='output/res2.png',
+                          output_name='output/wordCloud/season4_shield.png',
                           collocations=False)
 
 # with open('output/output_nltk.json',encoding="utf-8") as file:
